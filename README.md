@@ -17,6 +17,7 @@ I'm a Computer Science & Finance student at Northeastern University who enjoys b
 - **Tools:** Git, Docker, AWS
 
   ## Experience Highlights
+- Chief of Internal Insights @ Generate
 - Machine Learning Research Assistant @ Northeastern University
 - Software Engineering Intern @ GetFeedz Inc.
 - Data Analysis Research Assistant @ International Hellenic University
