@@ -20,7 +20,7 @@ I'm a Computer Science & Finance student at Northeastern University who enjoys b
 - Chief of Internal Insights @ Generate
 - Machine Learning Research Assistant @ Northeastern University
 - Software Engineering Intern @ GetFeedz Inc.
-- Data Analysis Research Assistant @ International Hellenic University
+- Data Analysis Research Assistant @ International Hellenic University 
 
 ## Currently Learning
 - Functional programming concepts
