@@ -25,7 +25,6 @@
 - 📈 **Chief of Internal Insights** at [Generate](https://generatenu.com)
 - 🤖 **Building Jarvis** - AI Personal Assistant with real-time features
 - 📊 **Stock Market Analysis** Developer with ML-powered predictions
-- 🔬 **ML Research Assistant** at Northeastern University
 - 💰 **Quantitative Finance** Enthusiast
 - 🏗️ **System Design** & Distributed Systems Explorer
 - 🧮 **Mathematics Minor** pursuing advanced quantitative skills
