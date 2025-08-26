@@ -1,100 +1,155 @@
 <div align="center">
-  <img src="Pixel.gif" alt="Pixel GIF" />
-</div>
+  
+# 🚀 AARAV RAINA
 
-# Hi there, I'm Aarav Raina 👋
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&pause=1000&color=00FFB3&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+%7C+AI+Engineer;Northeastern+CS+%26+Finance;Building+the+Future%2C+One+Line+at+a+Time" alt="Typing SVG" />
 
-<table width="120" align="center">
-  <tr>  
-    <td align="center" width="60">
-      <a href="https://www.linkedin.com/in/aarav-raina" target="_blank"><img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/linkedin.png?raw=true" height="36" width="65"></a>
-    </td>
-    <td align="center" width="60">
-      <a href="mailto:raina.aa@northeastern.edu"><img src="https://user-images.githubusercontent.com/29790345/184528214-8f168ffd-5a4c-4d30-8d6b-917568924fbb.png?raw=true" width="80"></a>
-    </td>
-    <td align="center" width="60">
-      <a href="./Resume.pdf" target="_blank"><img src="https://user-images.githubusercontent.com/29790345/184600207-42a1a54e-9faa-40c8-b18e-f8230d0c6d7c.png?raw=true" width="60"></a>
-    </td>
-  </tr>
-</table>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aarav-raina)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raina.aa@northeastern.edu)
+[![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](./Resume.pdf)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://aaravraina.com)
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=CS+%26+Finance+@+Northeastern;Full+Stack+Developer;ML+Research+Assistant;Building+AI+Systems;Always+Learning+New+Things;Welcome+to+my+GitHub!" alt="Typing SVG" />
-</div>
-
-- 📈 **Chief of Internal Insights** at [Generate](https://generatenu.com)
-- 🤖 **Building Jarvis** - AI Personal Assistant with real-time features
-- 📊 **Stock Market Analysis** Developer with ML-powered predictions
-- 💰 **Quantitative Finance** Enthusiast
-- 🏗️ **System Design** & Distributed Systems Explorer
-- 🧮 **Mathematics Minor** pursuing advanced quantitative skills
-- 🚀 Currently learning **Advanced Algorithms** and **HFT Systems**
-- 💻 Working on **Statistical Arbitrage** strategies
-
-### Here are some things I know:
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
 </div>
 
 ---
 
-<div align="center">
-  <a href="https://open.spotify.com/user/YOUR_SPOTIFY_ID">
-    <img src="https://novatorem.vercel.app/api/spotify" alt="Spotify" />
-  </a>
-</div>
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aaravraina3&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
-</div>
+### 👨‍💻 About Me
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aaravraina3&theme=tokyo-night&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" alt="Activity Graph" />
-</div>
+```python
+class AaravRaina:
+    def __init__(self):
+        self.role = "Chief of Internal Insights @ Generate"
+        self.education = "CS + Finance @ Northeastern"
+        self.current_focus = ["AI Systems", "Quantitative Finance", "HFT"]
+        self.learning = ["Advanced Algorithms", "Statistical Arbitrage"]
+        
+    def current_projects(self):
+        return [
+            "🤖 Building Jarvis - AI Personal Assistant",
+            "📊 ML-Powered Stock Market Analysis",
+            "💹 Quantitative Trading Strategies",
+            "🏗️ Distributed Systems Architecture"
+        ]
+```
 
-<h2> Current Focus </h2>
-I'm currently working on projects in <b>artificial intelligence</b> and <b>quantitative finance</b>. My research interests include <b>machine learning</b> applications in financial markets, <b>high-frequency trading</b> systems, and building <b>distributed systems</b> with low-latency requirements.
-<br><br>
-I spend my free time building things I don't know how to build yet. I'd love to connect, so *don't hesitate to reach out*.
+---
 
-<details>
-<summary><b>📊 More Boring Stats</b></summary>
+## 🛠️ Tech Arsenal
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aaravraina3&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aaravraina3&theme=tokyonight&hide_border=false" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaravraina3&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
-</div>
-
+<details open>
+<summary><b>💻 Languages</b></summary>
+<br>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,java,cpp,html,css" />
+</p>
 </details>
 
+<details open>
+<summary><b>🚀 Frameworks & Tools</b></summary>
+<br>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,flask,docker,aws,git" />
+</p>
+</details>
+
+<details open>
+<summary><b>🗄️ Databases & ML</b></summary>
+<br>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,redis,sqlite,tensorflow,pytorch" />
+</p>
+</details>
+
+---
+
+## 📊 GitHub Analytics
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake eating contributions" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=aaravraina3&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aaravraina3&layout=compact&langs_count=8&theme=radical"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aaravraina3&theme=radical&hide_border=true" />
+</div>
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+  
+[![trophy](https://github-profile-trophy.vercel.app/?username=aaravraina3&theme=radical&no-frame=true&no-bg=false&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aaravraina3&theme=redical&bg_color=141321&color=fe428e&line=f8d847&point=fe428e&area=true&hide_border=true" />
+</div>
+
+---
+
+## 🎵 Vibing To
+
+<div align="center">
+  
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=1wr2a597bsr9i66t3mrjm7ydi&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=1wr2a597bsr9i66t3mrjm7ydi&redirect=true)
+
+</div>
+
+---
+
+## 🌟 Random Dev Quote
+
+<div align="center">
+  
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
+
+---
+
+## 🔥 Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+<div align="center">
+  
+### 💭 Current Status
+
+```javascript
+while (alive) {
+    eat();
+    code();
+    learn();
+    repeat();
+}
+```
+
+### 📫 Let's Connect!
+
+<p>
+<a href="https://www.linkedin.com/in/aarav-raina"><img src="https://img.shields.io/badge/-Aarav%20Raina-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="mailto:raina.aa@northeastern.edu"><img src="https://img.shields.io/badge/-raina.aa@northeastern.edu-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://aaravraina.com"><img src="https://img.shields.io/badge/-aaravraina.com-FF5722?style=flat&logo=Google-Chrome&logoColor=white"/></a>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=aaravraina3&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+
+### ⚡ Fun Fact
+**I debug in production... just kidding! 😄**
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+
 </div>
