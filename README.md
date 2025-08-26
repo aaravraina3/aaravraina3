@@ -73,11 +73,11 @@ class AaravRaina:
 
 ---
 
-## 🎵 Currently Listening
+## 🎵 Music
 
 <div align="center">
 
-[![Spotify](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/1wr2a597bsr9i66t3mrjm7ydi)
+[![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=1wr2a597bsr9i66t3mrjm7ydi&width=400)](https://open.spotify.com/user/1wr2a597bsr9i66t3mrjm7ydi)
 
 </div>
 
