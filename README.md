@@ -73,16 +73,6 @@ class AaravRaina:
 
 ---
 
-## 🎵 Music
-
-<div align="center">
-
-[![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=1wr2a597bsr9i66t3mrjm7ydi&width=400)](https://open.spotify.com/user/1wr2a597bsr9i66t3mrjm7ydi)
-
-</div>
-
----
-
 <div align="center">
   
 ### ⚡ Fun Fact: I debug in production... just kidding! 😄
