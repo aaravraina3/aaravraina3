@@ -76,8 +76,8 @@ class AaravRaina:
 ## 🎵 Currently Listening
 
 <div align="center">
-  
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=1wr2a597bsr9i66t3mrjm7ydi&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://open.spotify.com/user/1wr2a597bsr9i66t3mrjm7ydi)
+
+[![Spotify](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/1wr2a597bsr9i66t3mrjm7ydi)
 
 </div>
 
