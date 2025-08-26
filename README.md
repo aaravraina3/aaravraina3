@@ -64,92 +64,29 @@ class AaravRaina:
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Stats
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=aaravraina3&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aaravraina3&layout=compact&langs_count=8&theme=radical"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aaravraina3&theme=radical&hide_border=true" />
-</div>
-
 ---
 
-## 🏆 Achievements
+## 🎵 Currently Listening
 
 <div align="center">
   
-[![trophy](https://github-profile-trophy.vercel.app/?username=aaravraina3&theme=radical&no-frame=true&no-bg=false&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=1wr2a597bsr9i66t3mrjm7ydi&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://open.spotify.com/user/1wr2a597bsr9i66t3mrjm7ydi)
 
 </div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aaravraina3&theme=redical&bg_color=141321&color=fe428e&line=f8d847&point=fe428e&area=true&hide_border=true" />
-</div>
-
----
-
-## 🎵 Vibing To
-
-<div align="center">
-  
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=1wr2a597bsr9i66t3mrjm7ydi&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=1wr2a597bsr9i66t3mrjm7ydi&redirect=true)
-
-</div>
-
----
-
-## 🌟 Random Dev Quote
-
-<div align="center">
-  
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)](https://github.com/piyushsuthar/github-readme-quotes)
-
-</div>
-
----
-
-## 🔥 Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
 
 ---
 
 <div align="center">
   
-### 💭 Current Status
-
-```javascript
-while (alive) {
-    eat();
-    code();
-    learn();
-    repeat();
-}
-```
-
-### 📫 Let's Connect!
-
-<p>
-<a href="https://www.linkedin.com/in/aarav-raina"><img src="https://img.shields.io/badge/-Aarav%20Raina-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="mailto:raina.aa@northeastern.edu"><img src="https://img.shields.io/badge/-raina.aa@northeastern.edu-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="https://aaravraina.com"><img src="https://img.shields.io/badge/-aaravraina.com-FF5722?style=flat&logo=Google-Chrome&logoColor=white"/></a>
-</p>
+### ⚡ Fun Fact: I debug in production... just kidding! 😄
 
 <img src="https://komarev.com/ghpvc/?username=aaravraina3&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-
-### ⚡ Fun Fact
-**I debug in production... just kidding! 😄**
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 
 </div>
