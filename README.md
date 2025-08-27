@@ -34,6 +34,22 @@ class AaravRaina:
         ]
 ```
 
+### 💼 Experience
+
+- **Chief of Internal Insights** @ Generate *(Current)*
+  - Building analytics infrastructure for 150+ member organization
+  - Architecting data pipelines processing millions of records
+  
+- **Software Engineer** @ Oasis *(Jan - May 2025)*
+  - Reduced page load time by 35% for 10K+ daily users
+  - Decreased application crash rate from 12% to 3%
+
+- **Data Analysis Research Assistant** @ International Hellenic University *(2024)*
+  - Processed 1M+ healthcare records in under 30 seconds
+  - Achieved 10x query performance improvement
+
+### 📌 Check Out My Pinned Repos Below!
+
 ---
 
 ## 🛠️ Tech Arsenal
