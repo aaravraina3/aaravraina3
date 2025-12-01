@@ -43,9 +43,9 @@ class AaravRaina:
 ```
 
 ### 💼 Experience
-- ** Full Stack Software Engineer** @ Teens 4 Teens *(Nov 2025 - Present)*
-- Volunteering my efforts to help my community
-- Backend, Devops
+- **Full Stack Software Engineer** @ Teens 4 Teens *(Nov 2025 - Present)*
+  - Volunteering my efforts to help my community
+  - Backend, Devops
 
 - **Software Engineer** @ Forge *(Aug 2025 - Present)*
   - Architecting Python/MongoDB backend for community skill-sharing platform
