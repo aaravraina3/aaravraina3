@@ -1,0 +1,2 @@
+export { Persona } from './PersonaModel';
+
