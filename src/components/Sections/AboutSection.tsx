@@ -144,15 +144,6 @@ export const AboutSection: React.FC = () => {
                                                         )}
                                                     </>
                                                 )}
-                                                {hoveredAction === 'github' && (
-                                                    <span>GitHub: {about.github}</span>
-                                                )}
-                                                {hoveredAction === 'linkedin' && (
-                                                    <span>LinkedIn: {about.linkedin}</span>
-                                                )}
-                                                {hoveredAction === 'resume' && (
-                                                    <span>Resume is available upon request — reach out and I’ll send it over.</span>
-                                                )}
                                             </div>
                                         )}
                                     </div>

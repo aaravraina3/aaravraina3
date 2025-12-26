@@ -125,19 +125,19 @@ export const profileData = {
     projects: [
         {
             id: 'proj0',
-            name: 'TCP Proxy',
-            shortDescription: 'Async network proxy in Rust with zero-copy inspection and real-time traffic modification.',
-            techStack: ['Rust', 'Tokio', 'Networking', 'Zero-copy'],
-            impact: 'Built an async proxy with zero-copy inspection and real-time traffic modification.',
-            links: { github: 'https://github.com/aaravraina3/rust_proxy' },
-        },
-        {
-            id: 'proj1',
             name: 'Lock-Free Order Book',
             shortDescription: 'High-performance matching engine in C++ using atomic operations and lock-free data structures.',
             techStack: ['C++', 'Atomics', 'Lock-Free', 'CMake'],
             impact: 'Built a high-performance matching engine that handles ~114M orders/sec with ~8ns latency.',
             links: { github: 'https://github.com/aaravraina3/Lock-Free-Order-Book-C-' },
+        },
+        {
+            id: 'proj1',
+            name: 'TCP Proxy',
+            shortDescription: 'Async network proxy in Rust with zero-copy inspection and real-time traffic modification.',
+            techStack: ['Rust', 'Tokio', 'Networking', 'Zero-copy'],
+            impact: 'Built an async proxy with zero-copy inspection and real-time traffic modification.',
+            links: { github: 'https://github.com/aaravraina3/rust_proxy' },
         },
         {
             id: 'proj2',
