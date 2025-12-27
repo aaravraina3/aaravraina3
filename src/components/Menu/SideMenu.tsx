@@ -7,7 +7,7 @@ interface SideMenuProps {
     onSectionChange: (section: string) => void;
 }
 
-const sections = ['EXPERIENCE', 'EDUCATION', 'PROJECTS', 'ABOUT'];
+const sections = ['EXPERIENCE', 'EDUCATION', 'PROJECTS', 'WORKS', 'ABOUT'];
 
 export const SideMenu: React.FC<SideMenuProps> = ({ activeSection, onSectionChange }) => {
     const [isMobile, setIsMobile] = React.useState(false);
@@ -30,8 +30,8 @@ export const SideMenu: React.FC<SideMenuProps> = ({ activeSection, onSectionChan
 
         // For ABOUT: split the menu to frame the deer
         if (activeSection === 'about') {
-            if (sectionIndex <= 2) {
-                // Top buttons (EXPERIENCE, EDUCATION, PROJECTS) move UP
+            if (sectionIndex <= 3) {
+                // Top buttons (EXPERIENCE, EDUCATION, PROJECTS, WORKS) move UP
                 return '-translate-y-32';
             } else {
                 // Bottom button (ABOUT) moves DOWN

@@ -3,6 +3,7 @@ import { MainLayout } from './components/Layout/MainLayout';
 import { ExperienceSection } from './components/Sections/ExperienceSection';
 import { EducationSection } from './components/Sections/EducationSection';
 import { ProjectsSection } from './components/Sections/ProjectsSection';
+import { WorksSection } from './components/Sections/WorksSection';
 import { AboutSection } from './components/Sections/AboutSection';
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
         return <EducationSection />;
       case 'projects':
         return <ProjectsSection />;
+      case 'works':
+        return <WorksSection />;
       case 'about':
         return <AboutSection />;
       default:
