@@ -25,7 +25,7 @@
 ```python
 class AaravRaina:
     def __init__(self):
-        self.role = "Chief of Internal Insights @ Generate"
+        self.role = "Data Tech Lead @ Generate"
         self.education = "CS + Finance @ Northeastern"
         self.current_focus = ["AI Systems", "Quantitative Finance", "HFT"]
         self.learning = ["Advanced Algorithms", "Statistical Arbitrage"]
