@@ -118,8 +118,12 @@ export const profileData = {
             'Statistics',
         ],
         honors: [
-            'Winner at PennApps XXVI Hackathon (Best Use of Gemini API)',
+            '1st Place at PyData × Cursor Boston Hackathon',
+            "YC AI Startup School '26",
+            "Two Sigma New Seeker's Summit",
+            'IMC Prosperity Top 5% Globally',
             'Jane Street Guts++',
+            'Winner at PennApps XXVI Hackathon (Best Use of Gemini API)',
         ],
     } as Education,
     projects: [
