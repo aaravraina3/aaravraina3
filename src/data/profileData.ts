@@ -48,16 +48,28 @@ export const profileData = {
             title: 'Quantitative Developer Intern (Incoming)',
             location: 'Stealth Location',
             dateRange: 'Jun 2026',
-            bullets: ['Incoming Quantitative Developer Intern (Jun 2026) — will share details once the role begins.'],
+            bullets: ['Incoming Quantitative Developer Intern (Jun 2026) — will share details once the role begins'],
         },
         {
             id: 'exp0',
             company: 'Verisk',
-            title: 'Software Developer Co-op (Incoming)',
+            title: 'Software Developer Co-op',
             location: 'Boston, MA',
-            dateRange: 'Jan 2026',
+            dateRange: 'Jan 2026 – Present',
             bullets: [
-                'Incoming Software Developer Co-op (Jan 2026).',
+                'Building distributed catastrophe risk analytics platform orchestrating Monte Carlo loss simulations (10,000+ trials) across multi-peril reinsurance portfolios, processing exceedance probability curves and stochastic risk metrics at scale',
+            ],
+        },
+        {
+            id: 'exp0c',
+            company: 'Cursor',
+            title: 'Cursor Fellow',
+            location: 'Remote',
+            dateRange: 'May 2026 – Present',
+            bullets: [
+                'Building AGI',
+                'Researching and studying multicalibration in machine learning, with an ongoing project applying these techniques',
+                "Built Speculative Decoding for Robot Diffusion Policies, porting the vLLM / Medusa / EAGLE draft-verifier inference pattern to lerobot/diffusion_pusht for ~2x speedup while hitting pusht's 10 Hz real-time control deadline",
             ],
         },
         {
@@ -65,9 +77,19 @@ export const profileData = {
             company: 'Forge',
             title: 'Software Engineer',
             location: 'Boston, MA',
-            dateRange: 'Aug 2025 – Present',
+            dateRange: 'Aug 2025 – Dec 2025',
             bullets: [
-                'Building a Python + MongoDB backend (REST APIs, JWT auth, caching, tests) for a skill-sharing platform.',
+                'Building a Python + MongoDB backend (REST APIs, JWT auth, caching, tests) for a skill-sharing platform',
+            ],
+        },
+        {
+            id: 'exp1b',
+            company: 'Cortex',
+            title: 'Machine Learning Lead',
+            location: 'Boston, MA',
+            dateRange: 'Jan 2026 – May 2026',
+            bullets: [
+                'Architected end-to-end ML-powered document intelligence platform for a client partner, leading team of 8 in designing vector embedding, unsupervised clustering, and graph algorithm pipelines to extract, classify, and link structured data',
             ],
         },
         {
@@ -77,8 +99,8 @@ export const profileData = {
             location: 'Boston, MA',
             dateRange: 'Aug 2025 – Present',
             bullets: [
-                "Data Tech Lead — leading internal systems (recruitment portal + MCP AI chatbot + automation/ETL) for Generate, Northeastern University's premier product development studio.",
-                'Previously: Chief of Internal Insights.',
+                "Data Tech Lead — leading internal systems (recruitment portal + MCP AI chatbot + automation/ETL) for Generate, Northeastern University's premier product development studio",
+                'Previously: Chief of Internal Insights',
             ],
         },
         {
@@ -88,7 +110,7 @@ export const profileData = {
             location: 'Remote',
             dateRange: 'May 2024 – Jul 2024',
             bullets: [
-                'Built Python/NumPy pipelines on 1M+ healthcare records and optimized PostgreSQL queries/indexes.',
+                'Built Python/NumPy pipelines on 1M+ healthcare records and optimized PostgreSQL queries/indexes',
             ],
         },
         {
@@ -98,7 +120,7 @@ export const profileData = {
             location: 'Stamford, CT',
             dateRange: 'Nov 2023 – Jul 2024',
             bullets: [
-                'Founded and led a 200+ student nonprofit and built a Flask + PostgreSQL tracking platform (99% uptime).',
+                'Founded and led a 200+ student nonprofit and built a Flask + PostgreSQL tracking platform (99% uptime)',
             ],
         },
     ] as Experience[],
@@ -127,6 +149,14 @@ export const profileData = {
         ],
     } as Education,
     projects: [
+        {
+            id: 'projspec',
+            name: 'Speculative Diffusion Policy Inference',
+            shortDescription: 'Draft-verifier speculative inference for diffusion-based robot policies on lerobot/diffusion_pusht.',
+            techStack: ['PyTorch', 'Diffusion Policies', 'Speculative Decoding', 'Real-Time Inference'],
+            impact: "Won 1st place at the PyData x Cursor Boston Hackathon. Built a chunked draft-verifier serving pipeline that amortizes one DDPM forward across n_action_steps=8 and hits pusht's 10 Hz / 100 ms control SLO at 2.02x mean speedup over baseline diffusion (95% bootstrap CI [1.59x, 2.62x], B=1000). Matches the action MSE of the highest-fidelity fixed-denoising configuration at 4.4x lower single-inference latency; the only operating point that achieves both deadline and quality simultaneously.",
+            links: { github: 'https://github.com/aaravraina3/speculative-diffusion-pusht-robot-diffusion' },
+        },
         {
             id: 'proj0',
             name: 'Lock-Free Order Book',
@@ -191,14 +221,14 @@ export const profileData = {
         linkedin: 'https://www.linkedin.com/in/aarav-raina/',
         focusAreas: ['Software Engineering', 'Quantitative Finance', 'Backend Systems', 'Machine Learning'],
         technologies: {
-            'Languages': ['Python', 'Java', 'JavaScript', 'TypeScript', 'SQL', 'HTML/CSS', 'Racket'],
+            'Languages': ['C++', 'Python', 'Java', 'JavaScript', 'TypeScript', 'SQL', 'HTML/CSS', 'Racket'],
             'Libraries/Developer Tools': ['AWS', 'Spring Boot', 'Pandas', 'FastAPI', 'Flask', 'NumPy', 'SciPy', 'Docker', 'CI/CD', 'Render', 'Linux'],
             'Machine Learning': ['NLP', 'Scikit-learn', 'TensorFlow', 'PyTorch', 'Hugging Face', 'LangChain', 'Vector Databases'],
             'Databases': ['PostgreSQL', 'MongoDB', 'Redis', 'MySQL', 'SupaBase'],
         },
         stats: [
+            { label: 'C++', value: 100 },
             { label: 'PYTHON', value: 92 },
-            { label: 'JAVA', value: 88 },
             { label: 'ALGORITHMS', value: 90 },
             { label: 'PROB/STATS', value: 86 },
         ],
