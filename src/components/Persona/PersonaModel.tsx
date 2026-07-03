@@ -168,9 +168,15 @@ const Model: React.FC<{ activeSection: string }> = ({ activeSection }) => {
 };
 
 export const Persona: React.FC<PersonaProps> = ({ activeSection }) => {
+    // Fewer stars on phones; decided once on mount since Stars rebuilds its
+    // geometry when count changes.
+    const [starCount] = React.useState(() =>
+        typeof window !== 'undefined' && window.innerWidth < 768 ? 2000 : 5000
+    );
+
     return (
         <div className="w-full h-full absolute inset-0 pointer-events-none z-0" style={{ mixBlendMode: 'screen' }}>
-            <Canvas gl={{ alpha: true, antialias: true }}>
+            <Canvas dpr={[1, 2]} gl={{ alpha: true, antialias: true, powerPreference: 'high-performance' }}>
                 <PerspectiveCamera makeDefault position={[0, 0, 8]} fov={45} />
 
                 <ambientLight intensity={0.3} />
@@ -179,7 +185,7 @@ export const Persona: React.FC<PersonaProps> = ({ activeSection }) => {
                 <spotLight position={[0, 10, 5]} angle={0.5} penumbra={1} intensity={2} castShadow color="#ffffff" />
                 <spotLight position={[0, -10, 5]} angle={0.3} penumbra={1} intensity={1} color="#6688ff" />
 
-                <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
+                <Stars radius={100} depth={50} count={starCount} factor={4} saturation={0} fade speed={1} />
 
                 <Suspense fallback={null}>
                     <Model activeSection={activeSection} />
@@ -188,5 +194,7 @@ export const Persona: React.FC<PersonaProps> = ({ activeSection }) => {
         </div>
     );
 };
+
+export default Persona;
 
 
