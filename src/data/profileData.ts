@@ -44,18 +44,18 @@ export const profileData = {
     experience: [
         {
             id: 'exp0b',
-            company: 'Stealth Company',
-            title: 'Quantitative Developer Intern (Incoming)',
-            location: 'Stealth Location',
+            company: 'AQR Capital Management',
+            title: 'Quantitative Research Developer Intern',
+            location: 'Greenwich, CT',
             dateRange: 'Jun 2026',
-            bullets: ['Incoming Quantitative Developer Intern (Jun 2026) — will share details once the role begins'],
+            bullets: ['Risk Engineering'],
         },
         {
             id: 'exp0',
             company: 'Verisk',
-            title: 'Software Developer Co-op',
+            title: 'Software Engineer Co-op',
             location: 'Boston, MA',
-            dateRange: 'Jan 2026 – Present',
+            dateRange: 'Jan 2026 – Jun 2026',
             bullets: [
                 'Building distributed catastrophe risk analytics platform orchestrating Monte Carlo loss simulations (10,000+ trials) across multi-peril reinsurance portfolios, processing exceedance probability curves and stochastic risk metrics at scale',
             ],
@@ -63,9 +63,9 @@ export const profileData = {
         {
             id: 'exp0c',
             company: 'Cursor',
-            title: 'Cursor Fellow',
-            location: 'Remote',
-            dateRange: 'May 2026 – Present',
+            title: 'Engineering Fellow',
+            location: 'Boston, MA',
+            dateRange: 'May 2026 – Jun 2026',
             bullets: [
                 'Building AGI',
                 'Researching and studying multicalibration in machine learning, with an ongoing project applying these techniques',
@@ -138,6 +138,7 @@ export const profileData = {
             'Linear Algebra',
             'Calculus',
             'Statistics',
+            'Investments',
         ],
         honors: [
             '1st Place at PyData × Cursor Boston Hackathon',
@@ -145,6 +146,7 @@ export const profileData = {
             "Two Sigma New Seeker's Summit",
             'IMC Prosperity Top 5% Globally',
             'Jane Street Guts++',
+            '2000 Chess.com (99th percentile)',
             'Winner at PennApps XXVI Hackathon (Best Use of Gemini API)',
         ],
     } as Education,
@@ -162,7 +164,7 @@ export const profileData = {
             name: 'Lock-Free Order Book',
             shortDescription: 'High-performance matching engine in C++ using atomic operations and lock-free data structures.',
             techStack: ['C++', 'Atomics', 'Lock-Free', 'CMake'],
-            impact: 'Built a high-performance matching engine that handles ~114M orders/sec with ~8ns latency.',
+            impact: 'Built a high-performance matching engine that handles 9M+ orders/sec with sub-10ns latency.',
             links: { github: 'https://github.com/aaravraina3/Lock-Free-Order-Book-C-' },
         },
         {
@@ -221,7 +223,7 @@ export const profileData = {
         linkedin: 'https://www.linkedin.com/in/aarav-raina/',
         focusAreas: ['Software Engineering', 'Quantitative Finance', 'Backend Systems', 'Machine Learning'],
         technologies: {
-            'Languages': ['C++', 'Python', 'Java', 'JavaScript', 'TypeScript', 'SQL', 'HTML/CSS', 'Racket'],
+            'Languages': ['C++', 'Python', 'Java', 'Rust', 'C#/.NET', 'JavaScript', 'TypeScript', 'SQL', 'HTML/CSS', 'Racket'],
             'Libraries/Developer Tools': ['AWS', 'Spring Boot', 'Pandas', 'FastAPI', 'Flask', 'NumPy', 'SciPy', 'Docker', 'CI/CD', 'Render', 'Linux'],
             'Machine Learning': ['NLP', 'Scikit-learn', 'TensorFlow', 'PyTorch', 'Hugging Face', 'LangChain', 'Vector Databases'],
             'Databases': ['PostgreSQL', 'MongoDB', 'Redis', 'MySQL', 'SupaBase'],
