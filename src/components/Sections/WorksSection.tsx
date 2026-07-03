@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { SkewedPanel } from '../UI/SkewedPanel';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, ArrowLeft } from 'lucide-react';
+import { SpeculativeDecodingPost } from './posts/SpeculativeDecodingPost';
 
 interface BlogPost {
     id: string;
@@ -9,10 +10,32 @@ interface BlogPost {
     date: string;
     description: string;
     link?: string;
+    readTime?: string;
+    content?: React.ReactNode;
     visualElement?: React.ReactNode;
 }
 
 const blogPosts: BlogPost[] = [
+    {
+        id: 'speculative-decoding-robot-policy',
+        title: 'I ported speculative decoding to a robot policy',
+        date: 'May 15, 2026',
+        readTime: '6 min read',
+        description:
+            'A 263M parameter diffusion policy misses its 10 Hz control deadline by 14x on a laptop CPU. Instead of turning the usual knob, I stole the draft-verifier trick from LLM serving. Won 1st place at the PyData x Cursor hackathon.',
+        content: <SpeculativeDecodingPost />,
+        visualElement: (
+            <div className="bg-black/40 border border-white/20 p-3 rounded font-mono text-xs text-green-400 w-full">
+                <div className="mb-2">SPECULATIVE SERVE:</div>
+                <div className="space-y-1">
+                    <div>draft: 4,482 params</div>
+                    <div>verifier: 263M params</div>
+                    <div>speedup: 2.02x</div>
+                    <div>10 Hz deadline: hit</div>
+                </div>
+            </div>
+        ),
+    },
     {
         id: 'coming-soon',
         title: 'Coming soon!',
@@ -23,7 +46,7 @@ const blogPosts: BlogPost[] = [
                 <div className="mb-2">STATUS:</div>
                 <div className="space-y-1">
                     <div>[✓] Writing in progress</div>
-                    <div>[ ] Technical deep-dives</div>
+                    <div>[✓] Technical deep-dives</div>
                     <div>[ ] Project retrospectives</div>
                 </div>
             </div>
@@ -32,6 +55,55 @@ const blogPosts: BlogPost[] = [
 ];
 
 export const WorksSection: React.FC = () => {
+    const [openPost, setOpenPost] = useState<BlogPost | null>(null);
+
+    // The scrollable panel lives in MainLayout; jump to the top when
+    // entering or leaving an article so it doesn't open mid-scroll.
+    useEffect(() => {
+        document.querySelector('.custom-scrollbar')?.scrollTo({ top: 0 });
+    }, [openPost]);
+
+    if (openPost) {
+        return (
+            <div className="space-y-6">
+                <motion.div
+                    initial={{ opacity: 0, x: 50 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.4 }}
+                >
+                    <motion.div
+                        onClick={() => setOpenPost(null)}
+                        whileTap={{ scale: 0.95 }}
+                        className="inline-block cursor-pointer mb-6"
+                    >
+                        <SkewedPanel skew="left" variant="white" className="border-l-8 border-l-black py-1">
+                            <div className="flex items-center gap-2 font-bold font-display text-black text-lg">
+                                <ArrowLeft size={20} />
+                                WORKS
+                            </div>
+                        </SkewedPanel>
+                    </motion.div>
+
+                    <h2 className="text-3xl md:text-4xl font-display font-bold mb-3 break-words">
+                        {openPost.title}
+                    </h2>
+                    <p className="text-sm text-white/70 font-mono">
+                        {openPost.date}
+                        {openPost.readTime ? ` · ${openPost.readTime}` : ''}
+                    </p>
+                </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.4, delay: 0.15 }}
+                >
+                    {openPost.content}
+                </motion.div>
+            </div>
+        );
+    }
+
     // Group posts by year
     const postsByYear = blogPosts.reduce((acc, post) => {
         const year = new Date(post.date).getFullYear().toString();
@@ -56,18 +128,7 @@ export const WorksSection: React.FC = () => {
                         WORKS
                     </h2>
                     <p className="text-sm mt-2 opacity-80">
-                        An{' '}
-                        <a
-                            href="#"
-                            className="text-blue-400 hover:text-blue-300 underline"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                // RSS feed functionality can be added later
-                            }}
-                        >
-                            RSS feed
-                        </a>{' '}
-                        is available, if you want to subscribe.
+                        Writing about the things I build.
                     </p>
                 </div>
             </motion.div>
@@ -91,8 +152,9 @@ export const WorksSection: React.FC = () => {
                                 >
                                     <SkewedPanel
                                         variant="outline"
-                                        className="group hover:bg-white/5 transition-colors duration-300 px-6 transform-none md:transform rounded-lg md:rounded-none overflow-hidden"
+                                        className={`group hover:bg-white/5 transition-colors duration-300 px-6 transform-none md:transform rounded-lg md:rounded-none overflow-hidden ${post.content ? 'cursor-pointer' : ''}`}
                                         innerClassName="transform-none md:transform"
+                                        onClick={post.content ? () => setOpenPost(post) : undefined}
                                     >
                                         <div className="flex flex-col md:flex-row gap-6">
                                             {/* Left side: Title, Date, Description */}
@@ -107,6 +169,10 @@ export const WorksSection: React.FC = () => {
                                                         >
                                                             {post.title}
                                                         </a>
+                                                    ) : post.content ? (
+                                                        <h3 className="text-2xl font-bold font-display text-blue-400 group-hover:text-blue-300 transition-colors group-hover:underline break-words">
+                                                            {post.title}
+                                                        </h3>
                                                     ) : (
                                                         <h3 className="text-2xl font-bold font-display text-white break-words">
                                                             {post.title}
@@ -119,10 +185,18 @@ export const WorksSection: React.FC = () => {
                                                         />
                                                     )}
                                                 </div>
-                                                <p className="text-sm text-white/70 font-mono">{post.date}</p>
+                                                <p className="text-sm text-white/70 font-mono">
+                                                    {post.date}
+                                                    {post.readTime ? ` · ${post.readTime}` : ''}
+                                                </p>
                                                 <p className="text-base leading-relaxed text-white/90 break-words">
                                                     {post.description}
                                                 </p>
+                                                {post.content && (
+                                                    <p className="text-sm font-mono text-blue-400 group-hover:text-blue-300">
+                                                        read post →
+                                                    </p>
+                                                )}
                                             </div>
 
                                             {/* Right side: Visual element */}
@@ -142,4 +216,3 @@ export const WorksSection: React.FC = () => {
         </div>
     );
 };
-
