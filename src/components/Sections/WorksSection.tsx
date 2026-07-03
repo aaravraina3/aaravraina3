@@ -36,22 +36,6 @@ const blogPosts: BlogPost[] = [
             </div>
         ),
     },
-    {
-        id: 'coming-soon',
-        title: 'Coming soon!',
-        date: 'Jan 1, 2025',
-        description: 'Look to more writing pieces about my work coming soon',
-        visualElement: (
-            <div className="bg-black/40 border border-white/20 p-3 rounded font-mono text-xs text-green-400">
-                <div className="mb-2">STATUS:</div>
-                <div className="space-y-1">
-                    <div>[✓] Writing in progress</div>
-                    <div>[✓] Technical deep-dives</div>
-                    <div>[ ] Project retrospectives</div>
-                </div>
-            </div>
-        ),
-    },
 ];
 
 export const WorksSection: React.FC = () => {

@@ -75,6 +75,37 @@ export const SpeculativeDecodingPost: React.FC = () => (
             tokens, a big verifier model checks the guesses, and you only pay for the big model when the
             draft is wrong. vLLM, Medusa, EAGLE. Every serious serving stack runs some flavor of it.
         </P>
+        <div className="border border-white/20 bg-white/5 rounded p-4 space-y-3">
+            <div className="font-mono text-xs text-green-400">SPECULATIVE DECODING 101</div>
+            <p className="text-sm leading-relaxed text-white/90">
+                New to this? Autoregressive models generate one token per forward pass, and every pass
+                costs the full model. Two facts make that fixable:
+            </p>
+            <ol className="text-sm leading-relaxed text-white/90 list-decimal list-inside space-y-2">
+                <li>
+                    Checking is cheaper than generating. Handed a guessed sequence, the big model can
+                    score all of it in one parallel forward pass. Generating those same tokens takes one
+                    pass each.
+                </li>
+                <li>
+                    Most tokens are easy. Boilerplate, grammar, the obvious next word. You do not need
+                    billions of parameters to type "the".
+                </li>
+            </ol>
+            <p className="text-sm leading-relaxed text-white/90">
+                So a tiny draft model guesses a few tokens ahead and the big model checks the whole guess
+                at once. Keep the prefix it agrees with; at the first disagreement, discard the rest and
+                continue from the big model's own answer. With the right acceptance rule the output
+                distribution is mathematically identical to running the big model alone, just faster,
+                because the expensive model now runs once per chunk instead of once per token.
+            </p>
+            <p className="text-sm leading-relaxed text-white/90">
+                The whole trick lives or dies on acceptance rate. Draft agrees often: big speedup. Draft
+                is garbage: you pay for both models and win nothing. One caveat for what follows: robot
+                actions are continuous vectors, not tokens, so exact matching makes no sense and a
+                distance threshold replaces the exactness guarantee with a dial.
+            </p>
+        </div>
         <P>
             Think of it as an intern and a senior engineer. The intern does the work, the senior reviews
             it. Most tasks are easy, the intern nails them, and the senior just nods. You pay senior
