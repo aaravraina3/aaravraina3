@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { SkewedPanel } from '../UI/SkewedPanel';
 import { ExternalLink, ArrowLeft } from 'lucide-react';
@@ -40,16 +40,19 @@ const blogPosts: BlogPost[] = [
 
 export const WorksSection: React.FC = () => {
     const [openPost, setOpenPost] = useState<BlogPost | null>(null);
+    const rootRef = useRef<HTMLDivElement>(null);
 
-    // The scrollable panel lives in MainLayout; jump to the top when
-    // entering or leaving an article so it doesn't open mid-scroll.
+    // The scrollable panel is an ancestor owned by the layout; reset any
+    // scrolled ancestor so a post never opens mid-scroll.
     useEffect(() => {
-        document.querySelector('.custom-scrollbar')?.scrollTo({ top: 0 });
+        for (let el = rootRef.current?.parentElement; el; el = el.parentElement) {
+            if (el.scrollTop > 0) el.scrollTop = 0;
+        }
     }, [openPost]);
 
     if (openPost) {
         return (
-            <div className="space-y-6">
+            <div ref={rootRef} className="space-y-6">
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -101,7 +104,7 @@ export const WorksSection: React.FC = () => {
     const sortedYears = Object.keys(postsByYear).sort((a, b) => parseInt(b) - parseInt(a));
 
     return (
-        <div className="space-y-8">
+        <div ref={rootRef} className="space-y-8">
             <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
