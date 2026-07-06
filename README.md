@@ -32,7 +32,6 @@ class AaravRaina:
     def current_projects(self):
         return [
             "🤖 Building Jarvis - AI Personal Assistant",
-            "⚡ Speculative Decoding for Robot Diffusion Policies",
             "📊 ML-Powered Stock Market Analysis",
             "💹 Quantitative Trading Strategies",
             "🏗️ Distributed Systems Architecture"
@@ -43,6 +42,9 @@ class AaravRaina:
 
 - **Quantitative Research Developer Intern** @ AQR Capital Management *(Jun 2026 - Present)*
   - Risk Engineering
+
+- **Engineering Fellow** @ Cursor *(May 2026 - Jun 2026)*
+  - Invite-only fellowship cohort; multicalibration research for confidence gating in coding agents
 
 - **Software Engineer Co-op** @ Verisk Extreme Event Solutions *(Jan 2026 - Jun 2026)*
   - Building distributed catastrophe risk analytics with Monte Carlo simulations at scale
