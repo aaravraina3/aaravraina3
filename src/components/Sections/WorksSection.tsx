@@ -52,7 +52,7 @@ export const WorksSection: React.FC = () => {
 
     if (openPost) {
         return (
-            <div ref={rootRef} className="space-y-6">
+            <div ref={rootRef} className="space-y-6 ml-0 md:ml-12">
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: 1, x: 0 }}
