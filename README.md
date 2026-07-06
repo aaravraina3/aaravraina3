@@ -54,9 +54,9 @@ class AaravRaina:
   - Architecting ML-powered document intelligence platform, leading team of 8
   - Building unsupervised clustering, vector embedding, and graph algorithm pipelines
 
-- **Software Engineer** @ Forge *(Aug 2025 - Dec 2025)*
-
 - **Data Tech Lead** @ Generate Product Development Studio *(Aug 2025 - Present)*
+
+- **Software Engineer** @ Forge *(Aug 2025 - Dec 2025)*
 
 - **Full Stack Software Engineer** @ Teens 4 Teens *(Nov 2025 - Dec 2025)*
   - Volunteering my efforts to help my community
