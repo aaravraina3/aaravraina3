@@ -24,7 +24,7 @@
 ```python
 class AaravRaina:
     def __init__(self):
-        self.role = "ML Lead @ Cortex Ventures | SWE Co-op @ Verisk"
+        self.role = "Quantitative Research Developer Intern @ AQR Capital Management"
         self.education = "CS + Finance @ Northeastern"
         self.current_focus = ["ML Systems", "Quantitative Finance", "Distributed Systems"]
         self.learning = ["Low-Latency Systems", "Stochastic Modeling", "Real Analysis"]
@@ -32,41 +32,34 @@ class AaravRaina:
     def current_projects(self):
         return [
             "🤖 Building Jarvis - AI Personal Assistant",
+            "⚡ Speculative Decoding for Robot Diffusion Policies",
             "📊 ML-Powered Stock Market Analysis",
             "💹 Quantitative Trading Strategies",
-            "🏗️ Distributed Systems Architecture",
-            "⚡ Lock-Free Order Book Matching Engine",
-            "🔒 Memory-Safe Network Proxy in Rust"
+            "🏗️ Distributed Systems Architecture"
         ]
 ```
 
 ### 💼 Experience
 
-- **Software Engineer Co-op** @ Verisk Extreme Event Solutions *(Jan 2026 - Present)*
+- **Quantitative Research Developer Intern** @ AQR Capital Management *(Jun 2026 - Present)*
+  - Risk Engineering
+
+- **Software Engineer Co-op** @ Verisk Extreme Event Solutions *(Jan 2026 - Jun 2026)*
   - Building distributed catastrophe risk analytics with Monte Carlo simulations at scale
   - Engineering AWS Step Functions orchestration with fan-out parallelism and gRPC integration
 
-- **Machine Learning Lead** @ Cortex Ventures *(Jan 2025 - Present)*
+- **Machine Learning Lead** @ Cortex Ventures *(Jan 2026 - May 2026)*
   - Architecting ML-powered document intelligence platform, leading team of 8
   - Building unsupervised clustering, vector embedding, and graph algorithm pipelines
 
 - **Software Engineer** @ Forge *(Aug 2025 - Dec 2025)*
-  - Architected Python/MongoDB backend for community skill-sharing platform
-  - Implemented JWT authentication, two-layer caching, and 50+ API endpoints
 
 - **Data Tech Lead** @ Generate Product Development Studio *(Aug 2025 - Present)*
-  - Leading data analytics infrastructure for 150+ member organization
-  - Architecting Python pipelines tracking engagement metrics with PostgreSQL/Redis
-  - Developing alumni tracking system connecting members with 10,000+ alumni
 
-- **Full Stack Software Engineer** @ Teens 4 Teens *(Nov 2025 - Present)*
+- **Full Stack Software Engineer** @ Teens 4 Teens *(Nov 2025 - Dec 2025)*
   - Volunteering my efforts to help my community
-  - Backend, Devops
-  
+
 - **Data Analysis Research Assistant** @ International Hellenic University *(May 2024 - Jul 2024)*
-  - Processed 1M+ healthcare records using Python and NumPy
-  - Optimized PostgreSQL database through indexing and query restructuring
-  - Built automation tools saving 20+ hours weekly
 
 ### 📌 Check Out My Pinned Repos Below!
 
@@ -78,7 +71,7 @@ class AaravRaina:
 <summary><b>💻 Languages</b></summary>
 <br>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,java,cpp,rust,cs" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,rust,cs" />
 </p>
 </details>
 
