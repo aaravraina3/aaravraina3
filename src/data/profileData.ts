@@ -47,7 +47,7 @@ export const profileData = {
             company: 'AQR Capital Management',
             title: 'Quantitative Research Developer Intern',
             location: 'Greenwich, CT',
-            dateRange: 'Jun 2026',
+            dateRange: 'Jun 2026 – Present',
             bullets: ['Risk Engineering'],
         },
         {
