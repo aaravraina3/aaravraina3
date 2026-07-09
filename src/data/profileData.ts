@@ -73,16 +73,6 @@ export const profileData = {
             ],
         },
         {
-            id: 'exp1',
-            company: 'Forge',
-            title: 'Software Engineer',
-            location: 'Boston, MA',
-            dateRange: 'Aug 2025 – Dec 2025',
-            bullets: [
-                'Building a Python + MongoDB backend (REST APIs, JWT auth, caching, tests) for a skill-sharing platform',
-            ],
-        },
-        {
             id: 'exp1b',
             company: 'Cortex',
             title: 'Machine Learning Lead',
@@ -90,6 +80,16 @@ export const profileData = {
             dateRange: 'Jan 2026 – May 2026',
             bullets: [
                 'Architected end-to-end ML-powered document intelligence platform for a client partner, leading team of 8 in designing vector embedding, unsupervised clustering, and graph algorithm pipelines to extract, classify, and link structured data',
+            ],
+        },
+        {
+            id: 'exp1',
+            company: 'Forge',
+            title: 'Software Engineer',
+            location: 'Boston, MA',
+            dateRange: 'Aug 2025 – Dec 2025',
+            bullets: [
+                'Building a Python + MongoDB backend (REST APIs, JWT auth, caching, tests) for a skill-sharing platform',
             ],
         },
         {
