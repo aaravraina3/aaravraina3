@@ -179,7 +179,7 @@ corr(delta, action_magnitude) = 0.27`}</CodeBlock>
             The blind judge for the best-submission track was an LLM, and its rationale flagged exactly
             what I was worried about: the methodology asks the reader to trust several implementation
             details. The bootstrap CI and the difficulty analysis were the direct response. The submission
-            won 1st place out of the 13 eligible entries.
+            won 1st place.
         </P>
         <P>
             The transferable lesson is small. Techniques port between domains when the cost structure
