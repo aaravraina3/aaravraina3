@@ -43,12 +43,24 @@ export interface About {
 export const profileData = {
     experience: [
         {
+            id: 'exp0a',
+            company: 'Northeastern University',
+            title: 'LLM Post-Training Research',
+            location: 'Boston, MA',
+            dateRange: 'Sep 2026 – Present',
+            bullets: [
+                'Reimplementing ELM concept erasure (NeurIPS 2025) from scratch, using LoRA and distribution-level optimization to strip targeted knowledge out of a language model while keeping everything it should still know intact',
+            ],
+        },
+        {
             id: 'exp0b',
             company: 'AQR Capital Management',
             title: 'Quantitative Research Developer Intern',
             location: 'Greenwich, CT',
-            dateRange: 'Jun 2026 – Present',
-            bullets: ['Risk Engineering'],
+            dateRange: 'Jun 2026 – Aug 2026',
+            bullets: [
+                'Built the right-to-forget erasure system for client portfolio holdings, coordinating deletes across three independent risk stores with an atomic audit trail and forward filters that stop deleted accounts from being re-ingested',
+            ],
         },
         {
             id: 'exp0',
@@ -151,6 +163,30 @@ export const profileData = {
         ],
     } as Education,
     projects: [
+        {
+            id: 'projelm',
+            name: 'ELM Reimplementation',
+            shortDescription: 'From-scratch reimplementation of ELM concept erasure (NeurIPS 2025).',
+            techStack: ['PyTorch', 'LoRA', 'Concept Erasure', 'LLM Post-Training'],
+            impact: 'Strips targeted knowledge out of a language model with LoRA under distribution-level optimization, with a cross-entropy penalty protecting what it should still know.',
+            links: { github: 'https://github.com/aaravraina3/Elm-reimplementation' },
+        },
+        {
+            id: 'projopt',
+            name: 'Distributed Options Pricing Engine',
+            shortDescription: 'GPU-accelerated derivatives pricing engine.',
+            techStack: ['CUDA', 'C++', 'Monte Carlo', 'Longstaff-Schwartz'],
+            impact: 'CUDA Monte Carlo with Longstaff-Schwartz for American exercise, fed by lock-free market data ingestion and a volatility surface that recalibrates live.',
+            links: {},
+        },
+        {
+            id: 'projgov',
+            name: 'TokenGovernor',
+            shortDescription: 'Deterministic budget controls for multi-step AI agents.',
+            techStack: ['TypeScript', 'AI Agents', 'Evals', 'Observability'],
+            impact: "Caps token and dollar spend mid-run rather than after the fact; won 3rd place in the OpenAI track at the 2026 Ramp Builder's Cup.",
+            links: { github: 'https://github.com/aaravraina3/207.PROJ.governor' },
+        },
         {
             id: 'projspec',
             name: 'Speculative Diffusion Policy Inference',
