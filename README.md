@@ -31,10 +31,8 @@ class AaravRaina:
         
     def current_projects(self):
         return [
-            "🤖 Building Jarvis - AI Personal Assistant",
-            "📊 ML-Powered Stock Market Analysis",
-            "💹 Quantitative Trading Strategies",
-            "🏗️ Distributed Systems Architecture"
+            "🧠 ELM reimplementation - concept erasure in LLMs (NeurIPS 2025)",
+            "⚡ Distributed options pricing - CUDA Monte Carlo, Longstaff-Schwartz"
         ]
 ```
 
