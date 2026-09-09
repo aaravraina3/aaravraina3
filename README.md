@@ -24,7 +24,7 @@
 ```python
 class AaravRaina:
     def __init__(self):
-        self.role = "Quantitative Research Developer Intern @ AQR Capital Management"
+        self.role = "LLM Post-Training Research @ Northeastern"
         self.education = "CS + Finance @ Northeastern"
         self.current_focus = ["ML Systems", "Quantitative Finance", "Distributed Systems"]
         self.learning = ["Low-Latency Systems", "Stochastic Modeling", "Real Analysis"]
@@ -40,19 +40,20 @@ class AaravRaina:
 
 ### 💼 Experience
 
-- **Quantitative Research Developer Intern** @ AQR Capital Management *(Jun 2026 - Present)*
-  - Risk Engineering
+- **LLM Post-Training Research** @ Northeastern University *(Sep 2026 - Present)*
+  - Targeted knowledge erasure in LLMs: LoRA under distribution-level optimization, likelihood-ratio reweighting against a cross-entropy retention constraint
+
+- **Quantitative Research Developer Intern** @ AQR Capital Management *(Jun 2026 - Aug 2026)*
+  - Right-to-forget erasure over client portfolio holdings: coordinated deletes across three independent risk stores with atomic audit trail and re-ingestion filters
 
 - **Engineering Fellow** @ Cursor *(May 2026 - Jun 2026)*
-  - Invite-only fellowship cohort; multicalibration research for confidence gating in coding agents
+  - Multicalibration for confidence gating in coding agents: HJKRR over a subgroup class of code features, driving worst-group calibration error below α
 
 - **Software Engineer Co-op** @ Verisk Extreme Event Solutions *(Jan 2026 - Jun 2026)*
-  - Building distributed catastrophe risk analytics with Monte Carlo simulations at scale
-  - Engineering AWS Step Functions orchestration with fan-out parallelism and gRPC integration
+  - Distributed catastrophe risk platform: Monte Carlo loss simulation over reinsurance portfolios, 13-Lambda Step Functions fanning out to 40 concurrent workers
 
 - **Machine Learning Lead** @ Cortex Ventures *(Jan 2026 - May 2026)*
-  - Architecting ML-powered document intelligence platform, leading team of 8
-  - Building unsupervised clustering, vector embedding, and graph algorithm pipelines
+  - Led 8 engineers on a platform inferring entire Postgres schemas from unstructured PDFs: HDBSCAN category discovery, threshold-free cosine argmax for foreign keys
 
 ### 📌 Check Out My Pinned Repos Below!
 
