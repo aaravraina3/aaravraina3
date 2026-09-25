@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { SkewedPanel } from '../UI/SkewedPanel';
 import { ExternalLink, ArrowLeft } from 'lucide-react';
 import { SpeculativeDecodingPost } from './posts/SpeculativeDecodingPost';
+import { AIDebtTreasuryPost } from './posts/AIDebtTreasuryPost';
 
 interface BlogPost {
     id: string;
@@ -16,6 +17,26 @@ interface BlogPost {
 }
 
 const blogPosts: BlogPost[] = [
+    {
+        id: 'ai-debt-treasury-curve',
+        title: 'I tried to find AI debt in the Treasury curve',
+        date: 'September 24, 2026',
+        readTime: '23 min read',
+        description:
+            'The five big AI spenders issued $179.5 billion of dollar bonds in 2026. I tried to measure whether that moved the Treasury curve, using only free data. The headline result is small and mostly negative; the interesting part is everything that broke on the way there.',
+        content: <AIDebtTreasuryPost />,
+        visualElement: (
+            <div className="bg-black/40 border border-white/20 p-3 rounded font-mono text-xs text-green-400 w-full">
+                <div className="mb-2">DURATION SUPPLY:</div>
+                <div className="space-y-1">
+                    <div>issuance: $179.5B</div>
+                    <div>day 0: +0.08bp/$bn</div>
+                    <div>gone by: day 5</div>
+                    <div>events: 16</div>
+                </div>
+            </div>
+        ),
+    },
     {
         id: 'speculative-decoding-robot-policy',
         title: 'I ported speculative decoding to a robot policy',
