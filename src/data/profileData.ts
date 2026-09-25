@@ -164,6 +164,14 @@ export const profileData = {
     } as Education,
     projects: [
         {
+            id: 'projdebt',
+            name: 'AI Debt and the Treasury Curve',
+            shortDescription: 'Event study of AI bond issuance and Treasury yields.',
+            techStack: ['Python', 'pandas', 'Local Projections', 'SEC EDGAR'],
+            impact: 'Built a deal database from EDGAR filings and found that $179.5B of AI bond supply leaves a small term-premium bump on announcement day that is gone within a week.',
+            links: { github: 'https://github.com/aaravraina3/ai-duration-supply' },
+        },
+        {
             id: 'projelm',
             name: 'ELM Reimplementation',
             shortDescription: 'From-scratch reimplementation of ELM concept erasure (NeurIPS 2025).',
