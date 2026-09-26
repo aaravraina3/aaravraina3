@@ -43,16 +43,15 @@ const blogPosts: BlogPost[] = [
         date: 'May 15, 2026',
         readTime: '6 min read',
         description:
-            'A 263M parameter diffusion policy misses its 10 Hz control deadline by 14x on a laptop CPU. Instead of turning the usual knob, I stole the draft-verifier trick from LLM serving. Won 1st place at the PyData x Cursor hackathon.',
+            'Won 1st place at the PyData x Cursor hackathon with a draft model meant to speed up a diffusion robot policy. A held-out, closed-loop re-evaluation found it saved no compute, and fewer denoising steps did the job instead.',
         content: <SpeculativeDecodingPost />,
         visualElement: (
             <div className="bg-black/40 border border-white/20 p-3 rounded font-mono text-xs text-green-400 w-full">
-                <div className="mb-2">SPECULATIVE SERVE:</div>
+                <div className="mb-2">RE-EVALUATED:</div>
                 <div className="space-y-1">
-                    <div>draft: 4,482 params</div>
-                    <div>verifier: 263M params</div>
-                    <div>speedup: 2.02x</div>
-                    <div>10 Hz deadline: hit</div>
+                    <div>original gate: 1.00x</div>
+                    <div>5-step sampler: 3.9x</div>
+                    <div>draft alone: 0% success</div>
                 </div>
             </div>
         ),

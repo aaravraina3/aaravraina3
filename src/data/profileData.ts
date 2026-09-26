@@ -198,9 +198,9 @@ export const profileData = {
         {
             id: 'projspec',
             name: 'Speculative Diffusion Policy Inference',
-            shortDescription: 'Draft-verifier speculative inference for diffusion-based robot policies on lerobot/diffusion_pusht.',
+            shortDescription: 'A small draft model paired with a diffusion robot policy on lerobot/diffusion_pusht.',
             techStack: ['PyTorch', 'Diffusion Policies', 'Speculative Decoding', 'Real-Time Inference'],
-            impact: "Won 1st place at the PyData x Cursor Boston Hackathon. Built a chunked draft-verifier serving pipeline that amortizes one DDPM forward across n_action_steps=8 and hits pusht's 10 Hz / 100 ms control SLO at 2.02x mean speedup over baseline diffusion (95% bootstrap CI [1.59x, 2.62x], B=1000). Matches the action MSE of the highest-fidelity fixed-denoising configuration at 4.4x lower single-inference latency; the only operating point that achieves both deadline and quality simultaneously.",
+            impact: 'Won 1st place at the PyData x Cursor Boston Hackathon. A later held-out, closed-loop re-evaluation found the draft gate saved no compute, and running the policy with fewer denoising steps worked better.',
             links: { github: 'https://github.com/aaravraina3/speculative-diffusion-pusht-robot-diffusion' },
         },
         {

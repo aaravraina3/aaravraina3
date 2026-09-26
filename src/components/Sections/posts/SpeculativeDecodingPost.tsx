@@ -23,6 +23,19 @@ const Inline: React.FC<{ children: React.ReactNode }> = ({ children }) => (
 export const SpeculativeDecodingPost: React.FC = () => (
     <div className="space-y-5">
         <P>
+            <strong>Update, September 2026:</strong> a held-out, closed-loop re-evaluation found the speedup in
+            this post doesn't hold. The{' '}
+            <a
+                href="https://github.com/aaravraina3/speculative-diffusion-pusht-robot-diffusion/blob/main/PAPER.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 underline"
+            >
+                paper
+            </a>{' '}
+            has the corrected results.
+        </P>
+        <P>
             I just got home from a hackathon. The brief: three hours, one public dataset, build something
             cool in a marimo notebook. PyData and Cursor ran it at Moderna HQ. Most people went for the
             MBTA or NASA exoplanet datasets, so I picked the robot.
