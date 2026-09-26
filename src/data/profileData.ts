@@ -81,7 +81,6 @@ export const profileData = {
             bullets: [
                 'Building AGI',
                 'Researching and studying multicalibration in machine learning, with an ongoing project applying these techniques',
-                "Built Speculative Decoding for Robot Diffusion Policies, porting the vLLM / Medusa / EAGLE draft-verifier inference pattern to lerobot/diffusion_pusht for ~2x speedup while hitting pusht's 10 Hz real-time control deadline",
             ],
         },
         {
